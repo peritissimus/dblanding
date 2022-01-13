@@ -38,7 +38,7 @@ export default function Header() {
             <Logo isSticky={state.isSticky} sx={styles.logo} />
             
             <Button variant="primary" sx={styles.button}>
-              Purchase Now
+              Try for free!
             </Button>
             <NavbarDrawer isSticky={state.isSticky} />
           </Container>

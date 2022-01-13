@@ -58,7 +58,7 @@ const NavbarDrawer = ({ isSticky }) => {
           ))}
         </Box>
         <Button variant="primary" sx={styles.donateNow}>
-          Purchase Now
+          Try for free!
         </Button>
       </Box>
     </Drawer>

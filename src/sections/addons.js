@@ -12,9 +12,9 @@ const Addons = () => {
         <Box sx={styles.grid}>
           <SectionHeading
             sx={styles.heading}
-            title="Integrated with the ultimate add-on management"
-            description="Our data centers have top-notch security and surveillance, with a reliable 99.9% uptime. Secure email hosting with encryption both at rest and end-to-end, along with S/MIME message encryption."
-            learnMore="Explore all add-on"
+            title="15+ languages and accents to choose from"
+            description="We support a variety of international and Indian regional languages. Our voices go into the detail of breathing and emotions. Use this on your explainer videos, training videos etc."
+            learnMore="Watch the playlist on YouTube"
           />
           <Flex sx={styles.illustration}>
             <Image src={addons} alt="addons" />

@@ -17,12 +17,11 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="CRM Software Landing"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Dubverse"
+          description="AI powered video dubbing"
         />
         <Banner />
 
-        <Security />
         <Addons />
       
         <Faq />
