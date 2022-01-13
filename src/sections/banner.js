@@ -51,9 +51,8 @@ const Banner = () => {
         </div>
         <Flex as="figure" sx={styles.illustration}>
         <Box sx={{ margin:'50px' }}>
-          <iframe width="560" height="315"  src="https://www.youtube.com/embed/6ERXfZTFbFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="800px" height="450px" src="https://www.youtube.com/embed/6ERXfZTFbFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Box>
-
         </Flex>
       </Container>
     </section>
@@ -64,7 +63,7 @@ export default Banner;
 
 const styles = {
   section: {
-    background: 'linear-gradient(113.71deg, #8360FF 8.28%, #CA1C8A 102.47%)',
+    background: '#2d1d60',
     // pt: [8, null, null, null, 10, 14],
     // pb: [8, null, null, null, 10, 14],
     position: 'relative',

@@ -4,10 +4,6 @@ export default [
     label: 'Home',
   },
   {
-    path: 'testimonials',
-    label: 'Testimonials',
-  },
-  {
     path: 'features',
     label: 'Features',
   },
