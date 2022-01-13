@@ -8,38 +8,33 @@ import FaqItem from 'components/cards/faq-item';
 const data = [
   {
     id: 1,
-    ques: 'Which domain should I purchase?',
-    ans: `We make it easy to move to CometNine. Simply contact us and we'll move your hosting account from any other provider, regardless of the control panel. If at anytime your website is down for more than 0.1% result`,
+    ques: 'Who is this best suited for?',
+    ans: `This is best suited for educational/explainer type content the best. In short, if you are a content creator, Dubverse hits home!`,
   },
   {
     id: 2,
-    ques: 'What are some tips when choosing a name?',
-    ans: `Get your website tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.`,
+    ques: 'How do I get access?',
+    ans: `Visit our demo at preview.dubverse.ai; test it out, if you like it, fill in the waitlist form.`,
   },
   {
     id: 3,
-    ques: 'What if I need help choosing the right domain?',
-    ans: `Create a hub for cross-functional work that also works with all your other tools. Centralize and standardize communication with Miro. All premium functional are included here with updates.`,
+    ques: 'How long does it take to get access?',
+    ans: `We are a small team, but we assure you we will get back to everybody`,
   },
   {
     id: 4,
-    ques: 'Can I upgrade or downgrade my web hosting plan',
-    ans: `The pricing made me a little hesitant at first but I have been pleasantly surprised by the level of care given by CometNine.`,
+    ques: 'What are the pricing plans?',
+    ans: `No pricing plans. Dubverse is free. No strings attached.`,
   },
   {
     id: 5,
-    ques: 'How do I upgrade the storage capacity of my hosting plan?',
-    ans: `Stop your viewers from getting distracted. Publish videos to your own Channel and rest easy knowing viewers won’t be annoyed by ads or pulled down a rabbit hole of unrelated videos.`,
+    ques: 'Can I get custom voices made, I want to clone my voice?',
+    ans: `Please submit a request throught the contact us page with your use case. We will get back to you.`,
   },
   {
     id: 6,
-    ques: 'What is in InMotion Hosting’s uptime rate?',
-    ans: `Designed with beginners in mind and packed with advanced features developers will love. Start with a quick and simple install`,
-  },
-  {
-    id: 7,
-    ques: 'Learn from community on Brandwagon',
-    ans: `Brian Halligan knows that you need more than a great product to have a great brand. Hear his thoughts & score a peek at our wagon.`,
+    ques: 'How safe are my private YouTube videos?',
+    ans: `100% safe. We do not log the data unless you raise an issue ticket.`,
   },
 ];
 
@@ -51,8 +46,8 @@ const Faq = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [8, null, null, 15] }}
-          description="Get yours question answer"
-          title="See what is your Frequently question"
+          description="Frequently asked questions"
+          title="We are here to help you"
         />
         <Masonry options={masonryOptions} sx={styles.grid}>
           {data.map((item) => {
@@ -60,7 +55,7 @@ const Faq = () => {
           })}
         </Masonry>
         <Box sx={styles.loadMore}>
-          <Button variant="text">Still Question? Contact us</Button>
+          <Button variant="text">Contact Us!</Button>
         </Box>
       </Container>
     </section>
