@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { useState } from 'react';
 import { rgba } from 'polished';
-import { jsx, Flex, Container, Heading, Text, Button, Link, Box } from 'theme-ui';
+import { jsx, Flex, Container, Heading, Text, Button, Link, Box, Embed } from 'theme-ui';
 import Image from 'components/image';
 import Play from 'components/icons/play';
 import dynamic from 'next/dynamic';
@@ -53,11 +53,7 @@ const Banner = () => {
             />
           </Flex>
         </div>
-        <Flex as="figure" sx={styles.illustration}>
-        <Box sx={{ margin:'50px' }}>
-          <iframe width="800px" height="450px" src="https://www.youtube.com/embed/zpGjbycDUxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </Box>
-        </Flex>
+      <Embed sx={{ marginTop:'50px' }} src="https://www.youtube.com/embed/zpGjbycDUxE"/>
       </Container>
     </section>
   );
