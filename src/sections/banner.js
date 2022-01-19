@@ -26,10 +26,14 @@ const Banner = () => {
     <section id="home" sx={styles.section}>
       <Container sx={styles.container}>
         <div sx={styles.content}>
+      
+        <Link path="https://www.producthunt.com/posts/dubverse?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dubverse">  
+          <a href="https://www.producthunt.com/posts/dubverse?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dubverse"><Image sx={styles.logo} src={"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=327348&theme=light"} alt="Product Hunt" /></a>
+        </Link>
+        <Text as="p">hello</Text>
           <Heading as="h1">
             Dub your videos in any language. Instantly. 
           </Heading>
-          <Text as="p">Deep learning based pronounciations and lip syncing.</Text>
           <Flex sx={styles.buttonGroup}>
             <Button variant="primary" sx={styles.btnPrimary}>
               <Link href="https://preview.dubverse.ai/" sx={{ textDecoration:'none', color:'white' }}> Try Demo </Link>
@@ -96,7 +100,7 @@ const styles = {
       lineHeight: 1.35,
     },
     p: {
-      color: rgba('white', 0.8),
+      color: rgba(45, 29, 96, 1),
       fontSize: [1, null, null, 2],
       marginTop: [3, null, null, 6],
     },
@@ -119,6 +123,14 @@ const styles = {
     svg: {
       ml: 2,
     },
+  },
+  logo: {
+    width: '250px', 
+    height: '54px',
+    //display: 'block',
+    //borderRadius: '50%',
+    mx: 'auto',
+    boxShadow: '0px 15px 35px rgba(65, 104, 139, 0.12)',
   },
   illustration: {
     transform: ['scale(1.20)', null, null, 'none'],
