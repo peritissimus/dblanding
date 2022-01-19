@@ -28,7 +28,8 @@ const Banner = () => {
         <div sx={styles.content}>
       
         <Link path="https://www.producthunt.com/posts/dubverse?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dubverse">  
-          <a href="https://www.producthunt.com/posts/dubverse?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dubverse"><Image sx={styles.logo} src={"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=327348&theme=light"} alt="Product Hunt" /></a>
+          <a href="https://www.producthunt.com/posts/dubverse?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dubverse"><
+            Image sx={styles.logo} src={"https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=327348&theme=light&period=daily"} alt="Product Hunt" /></a>
         </Link>
         <Text as="p">hello</Text>
           <Heading as="h1">
