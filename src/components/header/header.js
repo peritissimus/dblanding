@@ -35,7 +35,7 @@ export default function Header() {
           className={state.isSticky ? 'is-sticky' : ''}
         >
           <Container sx={styles.container}>
-            <Logo isSticky={state.isSticky} sx={styles.logo} />
+            <Link href="https://www.dubverse.ai"><Logo isSticky={state.isSticky} sx={styles.logo} /></Link>
             
             <Button variant="primary" sx={styles.button}>
               <Link href="https://preview.dubverse.ai/" sx={{ textDecoration:'none', color:'white' }}>Try for free!</Link>
