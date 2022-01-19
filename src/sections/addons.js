@@ -14,7 +14,7 @@ const Addons = () => {
             sx={styles.heading}
             title="15+ languages and accents to choose from"
             description="We support a variety of international and Indian regional languages. Our voices go into the detail of breathing and emotions. Use this on your explainer videos, training videos etc."
-            learnMore="Watch the playlist on YouTube"
+      
           />
           <Flex sx={styles.illustration}>
             <Image src={addons} alt="addons" />
