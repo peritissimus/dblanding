@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Button } from 'theme-ui';
+import { jsx, Container, Button, Link } from 'theme-ui';
 import { useState } from 'react';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
@@ -38,7 +38,7 @@ export default function Header() {
             <Logo isSticky={state.isSticky} sx={styles.logo} />
             
             <Button variant="primary" sx={styles.button}>
-              Try for free!
+              <Link href="https://preview.dubverse.ai/" sx={{ textDecoration:'none', color:'white' }}>Try for free!</Link>
             </Button>
             <NavbarDrawer isSticky={state.isSticky} />
           </Container>

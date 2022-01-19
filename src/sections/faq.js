@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container, Button } from 'theme-ui';
+import { jsx, Box, Container, Button, Link } from 'theme-ui';
 import Masonry from 'react-masonry-component';
 import SectionHeading from 'components/section-heading';
 import FaqItem from 'components/cards/faq-item';
@@ -55,7 +55,9 @@ const Faq = () => {
           })}
         </Masonry>
         <Box sx={styles.loadMore}>
-          <Button variant="text">Contact Us!</Button>
+          <Button variant="text">
+            <Link href="https://forms.monday.com/forms/b1645d3320fc113f1277159c3febe281?r=use1" sx={{ textDecoration:'none' }}>Contact Us! </Link>
+          </Button>
         </Box>
       </Container>
     </section>

@@ -39,7 +39,7 @@ const Banner = () => {
               sx={styles.btnOutlined}
               onClick={handleClick}
             >
-              Explainer Video<Play fill="white" />
+              Launch Video<Play fill="white" />
             </Button>
             <ModalVideo
               channel="youtube"
@@ -51,7 +51,7 @@ const Banner = () => {
         </div>
         <Flex as="figure" sx={styles.illustration}>
         <Box sx={{ margin:'50px' }}>
-          <iframe width="800px" height="450px" src="https://www.youtube.com/embed/6ERXfZTFbFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="800px" height="450px" src="https://www.youtube.com/embed/zpGjbycDUxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Box>
         </Flex>
       </Container>
